@@ -73,7 +73,7 @@ public class MathUtils {
 
     /**
      * This returns the entropy for a given vector of probabilities.
-     * entropy = - \sum_i p_i * log(p_i)
+     * entropy = -sum (p_i * log(p_i))
      * @param probabilities a list of probabilities, probabilities should be valid values in the range (0, 1)
      * @return the entropy of the given probabilities.
      */
