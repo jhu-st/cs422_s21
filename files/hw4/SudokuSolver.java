@@ -29,8 +29,8 @@ import java.util.Vector;
  *  2) Inspect the content of SudokuSolver.log carefully. This should provide pointers and hints
  *     where (and in what way) things might be going wrong. Try to fix as many issues as you find leveraging the
  *     content of the logfile.
- *  3) Next, if needed, run an interactive debugger and try to find all the remaining issues. Develop hypotheses i.e.
- *     tentative explanation of failure's cause on possible faults before running the debugger. Then verify each
+ *  3) Next, if needed, run an interactive debugger and try to find all the remaining issues. Develop hypotheses (remember
+ *     a hypothesis is a tentative explanation on failure's cause) on possible faults before running the debugger. Then verify each
  *     hypothesis by setting appropriate breakpoints/watchpoints at reasonable locations in the code and
  *     stepping through the code line by line.
  *  4) Finally, fix all the issues you have found and save your work into a new class named
@@ -44,7 +44,7 @@ import java.util.Vector;
  *     at least a few paragraphs and make detailed explanations. Try to use a debugger in a meaningful way
  *     to find the faults. Even if you spot a bug before running the debugger, still set appropriate
  *     breakpoints/watchpints and run the debugger to verify your hypothesis. If you do so, it should
- *     feel natural and straightforward to write this short report. 4) SudokuSolverFixed.java containing all fixes
+ *     feel natural and straightforward to write this short report. 3) SudokuSolverFixed.java containing all fixes
  *     to all the faults found as well as detailed and clear comments for each fault at the exact corresponding
  *     location in the code.
  *
