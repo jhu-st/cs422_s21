@@ -39,7 +39,7 @@ public class SudokuSolverTest {
                 {'9','6','1','5','3','7','2','8','4'},
                 {'2','8','7','4','1','9','6','3','5'},
                 {'3','4','5','2','8','6','1','7','9'}};
-        SudokuSolverCorrect solver = new SudokuSolverCorrect(board);
+        SudokuSolver solver = new SudokuSolver(board);
         solver.solve();
         // this assert should pass once you fix the bugs.
         assertTrue(checkEqual(board, expected));
